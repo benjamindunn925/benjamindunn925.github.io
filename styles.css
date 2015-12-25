@@ -1,0 +1,125 @@
+#first{
+    background-image: url("images/escalators.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 700px;
+    text-align: center;
+    color: #f72d3b;
+
+}
+
+#about{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#second{
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+#third{
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+}
+
+#fourth{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.center{
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+
+}
+
+.imageCenter{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerHoriz{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-weight: 300;
+}
+
+
+
+.imgTransition{
+    width:100%;
+    transition : opacity 500ms ease-out;
+}
+
+img{
+    width: 100%;
+}
+
+.portrait{
+    max-width: 375px;
+    text-align: center;
+}
+
+.imgTransition:hover{
+    opacity: .7;
+}
+
+.overlay{
+    background-color: #009ccc;
+    width: 100%;
+    transition: 500ms;
+}
+
+#bio{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.infoText{
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 200%;
+    font-weight: 300;
+}
+
+.icon{
+    position: relative;
+    width: 30px;
+    margin-left: 10px;
+    margin-right:10px;
+    transition: 300ms;
+}
+
+.icon:hover{
+    transform: scale(1.15);
+}
+
+.title{
+    color: #009ccc;
+    font-size: 36px;
+    font-weight: 300;
+    padding-left: 15px;
+
+}
+
+.titleLeft{
+    color: #009ccc;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: right;
+    padding-right:15px
+}
+
+.highlight{
+    color: #FFD166;
+}
